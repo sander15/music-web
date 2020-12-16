@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 6px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 5px 5px 11px rgb(190, 189, 189) , -5px -5px 11px  rgb(192, 192, 192);
+    text-align: center;    
+}
+.wrapper{
+    position: relative;
+}
+img{
+    margin-bottom: 30px;
+    margin-top: 80px;
+    width: 65%;
+    height: 60%;
+}
+
+.buttons{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.buttons button{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    border-radius: 90px;
+    background-color: #c0bcbc;
+    text-align: left;
+    margin: 10px 9px;
+    border: none;
+    box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff;
+}
+.buttons button:active{
+    background: #c4c4c4;
+    box-shadow: inset 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff;
+}
+.buttons button img{
+    position: absolute;
+    left: 50%;
+    top: -109%;
+    transform: translate(-50%,-50%);
+    width: 42%;
+    height: 42%;
+}
+
+.level{
+    width: 80%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #c0bcbc;
+    box-shadow: 2px 2px 5px #777777 , -2px -2px 11px  #fff;
+    border-radius: 50px;
+    margin: 12px 0;
+}
+.level::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #c0bcbc;
+    box-shadow: 2px 2px 5px #959596 , -2px -2px 5px  #fff;
+    width: 15px; 
+    height: 15px; 
+    border-radius: 90px;
+}
+.level::-moz-range-thumb{
+    width: 20px;
+    height: 40px;
+}
